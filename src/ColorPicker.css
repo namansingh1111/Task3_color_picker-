@@ -1,0 +1,36 @@
+/* ColorPicker.css */
+
+/* Style for the outer container */
+.ColorPicker {
+  text-align: center;
+}
+
+/* Style for the color picker heading */
+.ColorPicker h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* Style for the color input element */
+.ColorPicker input[type="color"] {
+  width: 100px;
+  height: 30px;
+  border: none;
+}
+
+/* Style for the color display box */
+.ColorPicker .color-display {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  background-color: #000000;
+  border: 2px solid #333;
+  border-radius: 8px;
+}
+
+/* Style to update the color of the display box */
+.ColorPicker .color-display {
+  background-color: var(--selected-color);
+}
+
+  

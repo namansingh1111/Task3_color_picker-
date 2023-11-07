@@ -1,0 +1,16 @@
+/* App.css */
+
+/* Style for the outer container of the App component */
+.App {
+  text-align: center;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Apply global or component-specific styles as needed */
+
